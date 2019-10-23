@@ -2,30 +2,44 @@
     "description": "",
     "manifest_version": 2,
     "name": "h4x0r",
+    "icons": {
+       "128": "images/icon.png"
+    },
     "theme": {
         "colors": {
-            "bookmark_text": [ 102, 255, 0 ],
-            "button_background": [ 102, 255, 0, 1 ],
-            "frame": [ 102, 255, 0 ],
-            "ntp_background": [ 0, 0, 0 ],
-            "ntp_link": [ 102, 255, 0 ],
-            "ntp_text": [ 102, 255, 0 ],
-            "tab_background_text": [ 153, 153, 153 ],
-            "tab_text": [ 102, 255, 0 ],
-            "toolbar": [ 102, 255, 0 ]
+           "background_tab": [ 13, 13, 13 ],
+           "background_tab_inactive": [ 13, 13, 13 ],
+           "background_tab_incognito": [ 13, 13, 13 ],
+           "background_tab_incognito_inactive": [ 13, 13, 13 ],
+           "bookmark_text": [ 30, 255, 0 ],
+           "frame": [ 0, 0, 0 ],
+           "frame_inactive": [ 0, 0, 0 ],
+           "frame_incognito": [ 0, 0, 0 ],
+           "frame_incognito_inactive": [ 0, 0, 0 ],
+           "tab_background_text": [ 209, 209, 209 ],
+           "tab_background_text_inactive": [ 171, 171, 171 ],
+           "tab_background_text_incognito": [ 209, 209, 209 ],
+           "tab_background_text_incognito_inactive": [ 171, 171, 171 ],
+           "tab_text": [ 30, 255, 0 ],
+           "toolbar": [ 13, 13, 13 ]
         },
         "images": {
-            "theme_frame": "images/black.png",
-            "theme_tab_background": "images/black.png",
-            "theme_toolbar": "images/black.png"
+           "theme_frame": "images/theme_frame.png",
+           "theme_toolbar": "images/theme_toolbar.png"
         },
         "properties": {
-            "ntp_background_alignment": "bottom",
-            "ntp_background_repeat": "no-repeat"
+           "ntp_background_alignment": "left top",
+           "ntp_background_repeat": "no-repeat",
+           "ntp_logo_alternate": 0
         },
         "tints": {
-            "buttons": [ 0.27, 1.0, 0.5 ]
+           "background_tab": [ -1, -1, -1 ],
+           "buttons": [ 1, 1, 1 ],
+           "frame": [ -1, -1, -1 ],
+           "frame_inactive": [ -1, -1, -1 ],
+           "frame_incognito": [ -1, -1, -1 ],
+           "frame_incognito_inactive": [ -1, -1, -1 ]
         }
     },
-    "version": "1.23"
+    "version": "1.33"
 }
